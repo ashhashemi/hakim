@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="hero-gradient min-h-[calc(100vh-5rem)] flex items-center relative overflow-hidden">
+      <section className="hero-gradient min-h-[calc(100vh-6rem)] flex items-center relative overflow-hidden">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Text Content */}
