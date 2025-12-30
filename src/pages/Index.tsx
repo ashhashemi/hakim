@@ -15,9 +15,7 @@ const Index = () => {
                 <span className="italic">Meets Strategy</span>
               </h1>
               <p className="mt-8 text-muted-foreground text-lg leading-relaxed animate-slide-up-delay">
-                Bridging academic excellence with practical business solutions.
-                We deliver insights that transform organizations and drive
-                meaningful change.
+                Bridging academic rigor with real world decision-making. We provide analytically-grounded solutions to complex political and institutional challenges.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-4 animate-slide-up-delay">
                 <a
