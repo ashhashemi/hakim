@@ -73,13 +73,10 @@ const Index = () => {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-8">
-              Expertise That Matters
+              Doctoral Level Decision Making
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              At Hakim Group, we combine rigorous academic research with
-              real-world business acumen. Our team of scholars and strategists
-              work together to deliver solutions that are both intellectually
-              sound and practically effective.
+              At Hakim Group, we provide decision-makers with clear, research-driven solutions to political, regulatory, and institutional challenges. We combine a deep contextual understanding with rigorous Oxford-level analysis to turn complexity into strategic clarity.
             </p>
           </div>
         </div>
