@@ -48,42 +48,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Values */}
-      <section className="py-24 bg-background">
-        <div className="container mx-auto px-6 lg:px-12">
-          <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-16 text-center">
-            Our Values
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            {[
-              {
-                title: "Intellectual Rigor",
-                description:
-                  "Every recommendation we make is grounded in thorough research and analysis. We believe in evidence-based decision making.",
-              },
-              {
-                title: "Practical Impact",
-                description:
-                  "Theory without application is incomplete. We focus on delivering tangible results that drive real organizational change.",
-              },
-              {
-                title: "Collaborative Partnership",
-                description:
-                  "We work alongside our clients, not above them. True transformation happens through genuine collaboration.",
-              },
-            ].map((value, index) => (
-              <div key={index} className="text-center">
-                <h3 className="font-serif text-xl text-foreground mb-4">
-                  {value.title}
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  {value.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </Layout>
   );
 };
