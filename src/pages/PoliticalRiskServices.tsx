@@ -41,14 +41,6 @@ const PoliticalRiskServices = () => {
                 </p>
               </div>
 
-              <div className="p-8 bg-background border border-border transition-all duration-300 hover:border-foreground/20">
-                <h3 className="font-serif text-xl text-foreground mb-4">
-                  Government Relations
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  We support government relations strategies through detailed analysis of political institutions, stakeholder networks, and, in some cases, informal modes of governance. Our work clarifies how decisions are made, where influence lies, and how engagement strategies may be shaped by local political dynamics.
-                </p>
-              </div>
             </div>
           </div>
         </div>
