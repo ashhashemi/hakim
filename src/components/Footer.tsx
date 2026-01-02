@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="font-serif text-2xl mb-4">Hakim Group</h3>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Where Scholarship Meets Strategy
+              Where Scholarship Meets Statecraft
             </p>
           </div>
 
@@ -26,10 +26,16 @@ const Footer = () => {
                 About Us
               </Link>
               <Link
-                to="/services"
+                to="/government"
                 className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
               >
-                Services
+                Government & Public Sector
+              </Link>
+              <Link
+                to="/political-risk"
+                className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              >
+                Political Risk & Advisory
               </Link>
               <Link
                 to="/contact"
@@ -45,16 +51,12 @@ const Footer = () => {
             <h4 className="text-sm uppercase tracking-wide mb-4 font-medium">
               Get in Touch
             </h4>
-            <p className="text-sm text-primary-foreground/70 leading-relaxed">
-              Ready to transform your vision into reality?
-              <br />
-              <Link
-                to="/contact"
-                className="underline hover:text-primary-foreground transition-colors"
-              >
-                Contact us today
-              </Link>
-            </p>
+            <Link
+              to="/contact"
+              className="text-sm text-primary-foreground/70 underline hover:text-primary-foreground transition-colors"
+            >
+              Contact us today
+            </Link>
           </div>
         </div>
 
