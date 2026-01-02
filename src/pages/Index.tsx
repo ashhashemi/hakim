@@ -13,24 +13,28 @@ const Index = () => {
               <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-hero leading-tight animate-fade-in">
                 Where Scholarship
                 <br />
-                <span className="italic">Meets Strategy</span>
+                <span className="italic">Meets Statecraft</span>
               </h1>
               <p className="mt-8 text-muted-foreground text-lg leading-relaxed animate-slide-up-delay">
-                Bridging academic rigor with real world decision-making. We provide analytically-grounded solutions to complex political and institutional challenges.
+                Bridging academic rigor with applied political understanding.
+                We offer analytically grounded insight into complex political and institutional environments.
               </p>
-              <div className="mt-10 flex flex-col sm:flex-row gap-4 animate-slide-up-delay">
-                <a
-                  href="/services"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground text-sm uppercase tracking-wide transition-all duration-300 hover:opacity-90"
-                >
-                  Our Services
-                </a>
-                <a
-                  href="/contact"
-                  className="inline-flex items-center justify-center px-8 py-4 border border-primary text-primary text-sm uppercase tracking-wide transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
-                >
-                  Get in Touch
-                </a>
+              <div className="mt-10 animate-slide-up-delay">
+                <p className="text-sm uppercase tracking-wide text-muted-foreground mb-4">What We Do</p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <a
+                    href="/government"
+                    className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground text-sm uppercase tracking-wide transition-all duration-300 hover:opacity-90"
+                  >
+                    Government & Public Sector
+                  </a>
+                  <a
+                    href="/political-risk"
+                    className="inline-flex items-center justify-center px-8 py-4 border border-primary text-primary text-sm uppercase tracking-wide transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
+                  >
+                    Political Risk & Advisory
+                  </a>
+                </div>
               </div>
             </div>
 
