@@ -29,7 +29,7 @@ const Navigation = () => {
           <Link to="/" className="flex items-center gap-3">
             <img
               src={logo}
-              alt="Hakim Group"
+              alt="Hakim Global"
               className="h-20 w-auto"
             />
           </Link>

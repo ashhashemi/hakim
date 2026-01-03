@@ -60,7 +60,7 @@ const Index = () => {
               Doctoral Level Decision Making
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              At Hakim Group, we provide decision-makers with clear, research-driven solutions to political, regulatory, and institutional challenges. We combine a deep contextual understanding with rigorous Oxford-level analysis to turn complexity into strategic clarity.
+              At Hakim Global, we provide decision-makers with clear, research-driven solutions to political, regulatory, and institutional challenges. We combine a deep contextual understanding with rigorous Oxford-level analysis to turn complexity into strategic clarity.
             </p>
           </div>
         </div>
