@@ -51,12 +51,12 @@ const Footer = () => {
             <h4 className="text-sm uppercase tracking-wide mb-4 font-medium">
               Get in Touch
             </h4>
-            <Link
-              to="/contact"
-              className="text-sm text-primary-foreground/70 underline hover:text-primary-foreground transition-colors"
+            <a
+              href="mailto:contact@hakimglobal.com"
+              className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
             >
-              Contact us today
-            </Link>
+              contact@hakimglobal.com
+            </a>
           </div>
         </div>
 
