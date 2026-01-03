@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
-import logo from "@/assets/hakim-group-logo-transparent.png";
+import logo from "@/assets/hakim-group-logo-new.png";
 
 const whatWeDoLinks = [
   { name: "Government & Public Sector", path: "/government" },
@@ -24,13 +24,13 @@ const Navigation = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border/50">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="flex items-center justify-between h-24">
+        <div className="flex items-center justify-between h-28">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <img
               src={logo}
               alt="Hakim Group"
-              className="h-20 w-auto"
+              className="h-24 w-auto"
             />
           </Link>
 
