@@ -8,8 +8,19 @@ const GovernmentServices = () => {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-hero leading-tight animate-fade-in">
-              Government & Public Sector
+              Public Sector
             </h1>
+          </div>
+        </div>
+      </section>
+
+      {/* Intro Section */}
+      <section className="py-12 bg-card border-b border-border">
+        <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-4xl">
+            <p className="text-muted-foreground leading-relaxed text-lg">
+              Our work combines doctoral-level analysis with deep contextual understanding to support informed reflection on policy, political dynamics, and institutional environments within the public sector.
+            </p>
           </div>
         </div>
       </section>
@@ -18,9 +29,6 @@ const GovernmentServices = () => {
       <section className="py-24 bg-card">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl">
-            <p className="text-muted-foreground leading-relaxed mb-12 text-lg">
-              Our work combines doctoral-level analysis with deep contextual understanding to support informed reflection on policy, political dynamics, and institutional environments within the public sector.
-            </p>
 
             <div className="space-y-8">
               <div className="p-8 bg-background border border-border transition-all duration-300 hover:border-foreground/20">

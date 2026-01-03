@@ -8,8 +8,19 @@ const PoliticalRiskServices = () => {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-hero leading-tight animate-fade-in">
-              Political Risk & Strategic Advisory
+              Political Risk
             </h1>
+          </div>
+        </div>
+      </section>
+
+      {/* Intro Section */}
+      <section className="py-12 bg-card border-b border-border">
+        <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-4xl">
+            <p className="text-muted-foreground leading-relaxed text-lg">
+              We equip companies with research-driven political and economic analysis to assess political risk, guide market entry, and manage government relations.
+            </p>
           </div>
         </div>
       </section>
@@ -18,9 +29,6 @@ const PoliticalRiskServices = () => {
       <section className="py-24 bg-card">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl">
-            <p className="text-muted-foreground leading-relaxed mb-12 text-lg">
-              We equip firms with research-driven political and economic analysis to assess political risk, guide market entry, and manage government relations.
-            </p>
 
             <div className="space-y-8">
               <div className="p-8 bg-background border border-border transition-all duration-300 hover:border-foreground/20">
