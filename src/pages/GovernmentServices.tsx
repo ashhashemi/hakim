@@ -7,18 +7,10 @@ const GovernmentServices = () => {
       <section className="hero-gradient py-24 lg:py-32">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-hero leading-tight animate-fade-in">
+            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-hero leading-tight animate-fade-in mb-6">
               Public Sector
             </h1>
-          </div>
-        </div>
-      </section>
-
-      {/* Intro Section */}
-      <section className="py-12 bg-card border-b border-border">
-        <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl">
-            <p className="text-muted-foreground leading-relaxed text-lg">
+            <p className="text-hero/80 leading-relaxed text-lg">
               Our work combines doctoral-level analysis with deep contextual understanding to support informed reflection on policy, political dynamics, and institutional environments within the public sector.
             </p>
           </div>
