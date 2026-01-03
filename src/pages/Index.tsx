@@ -22,15 +22,15 @@ const Index = () => {
               <div className="mt-10 flex flex-col sm:flex-row gap-4 animate-slide-up-delay justify-center sm:justify-start">
                 <a
                   href="/government"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground text-sm uppercase tracking-wide transition-all duration-300 hover:opacity-90"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground text-sm uppercase tracking-wide transition-all duration-300 hover:opacity-90 text-center"
                 >
-                  Government & Public Sector
+                  Public Sector
                 </a>
                 <a
                   href="/political-risk"
-                  className="inline-flex items-center justify-center px-8 py-4 border border-primary text-primary text-sm uppercase tracking-wide transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
+                  className="inline-flex items-center justify-center px-8 py-4 border border-primary text-primary text-sm uppercase tracking-wide transition-all duration-300 hover:bg-primary hover:text-primary-foreground text-center"
                 >
-                  Political Risk & Advisory
+                  Political Risk
                 </a>
               </div>
             </div>
