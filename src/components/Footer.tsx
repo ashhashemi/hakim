@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <h3 className="font-serif text-2xl mb-4">Hakim Group</h3>
+            <h3 className="font-serif text-2xl mb-4">Hakim Global</h3>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
               Where Scholarship Meets Statecraft
             </p>
@@ -29,13 +29,13 @@ const Footer = () => {
                 to="/government"
                 className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
               >
-                Government & Public Sector
+                Public Sector
               </Link>
               <Link
                 to="/political-risk"
                 className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
               >
-                Political Risk & Advisory
+                Political Risk
               </Link>
               <Link
                 to="/contact"
@@ -62,7 +62,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-12 pt-8">
           <p className="text-sm text-primary-foreground/50 text-center">
-            © {new Date().getFullYear()} Hakim Group. All rights reserved.
+            © {new Date().getFullYear()} Hakim Global. All rights reserved.
           </p>
         </div>
       </div>

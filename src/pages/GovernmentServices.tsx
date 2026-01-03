@@ -62,7 +62,7 @@ const GovernmentServices = () => {
               Ready to Get Started?
             </h2>
             <p className="text-muted-foreground text-lg mb-10">
-              Let's discuss how Hakim Group can support your organisation's objectives.
+              Let's discuss how Hakim Global can support your organisation's objectives.
             </p>
             <a
               href="/contact"
