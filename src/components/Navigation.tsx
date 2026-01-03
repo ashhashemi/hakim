@@ -4,8 +4,8 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import logo from "@/assets/hakim-group-logo-horizontal.png";
 
 const whatWeDoLinks = [
-  { name: "Government & Public Sector", path: "/government" },
-  { name: "Political Risk & Strategic Advisory", path: "/political-risk" },
+  { name: "Public Sector", path: "/government" },
+  { name: "Political Risk", path: "/political-risk" },
 ];
 
 const navLinks = [
