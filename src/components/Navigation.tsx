@@ -36,6 +36,18 @@ const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-12">
+            {/* About Us Link */}
+            <Link
+              to="/about"
+              className={`text-sm tracking-wide uppercase transition-colors duration-300 ${
+                isActive("/about")
+                  ? "text-foreground font-medium"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              About Us
+            </Link>
+
             {/* What We Do Dropdown */}
             <div 
               className="relative"
@@ -74,19 +86,17 @@ const Navigation = () => {
               )}
             </div>
 
-            {navLinks.map((link) => (
-              <Link
-                key={link.path}
-                to={link.path}
-                className={`text-sm tracking-wide uppercase transition-colors duration-300 ${
-                  isActive(link.path)
-                    ? "text-foreground font-medium"
-                    : "text-muted-foreground hover:text-foreground"
-                }`}
-              >
-                {link.name}
-              </Link>
-            ))}
+            {/* Contact Link */}
+            <Link
+              to="/contact"
+              className={`text-sm tracking-wide uppercase transition-colors duration-300 ${
+                isActive("/contact")
+                  ? "text-foreground font-medium"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              Contact
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
