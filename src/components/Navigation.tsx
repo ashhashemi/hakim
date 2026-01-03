@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
-import logo from "@/assets/hakim-group-logo-cropped.png";
+import logo from "@/assets/hakim-group-logo-horizontal.png";
 
 const whatWeDoLinks = [
   { name: "Government & Public Sector", path: "/government" },

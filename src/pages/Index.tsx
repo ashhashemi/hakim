@@ -19,7 +19,7 @@ const Index = () => {
                 Bridging academic rigor with applied political understanding.
                 We offer analytically grounded insight into complex political and institutional environments.
               </p>
-              <div className="mt-10 flex flex-col sm:flex-row gap-4 animate-slide-up-delay">
+              <div className="mt-10 flex flex-col sm:flex-row gap-4 animate-slide-up-delay justify-center sm:justify-start">
                 <a
                   href="/government"
                   className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground text-sm uppercase tracking-wide transition-all duration-300 hover:opacity-90"
