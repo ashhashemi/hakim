@@ -133,34 +133,14 @@ const Contact = () => {
               <h2 className="font-serif text-2xl text-foreground mb-8">
                 Get in Touch
               </h2>
-              <div className="space-y-8">
-                <div>
+              <div>
                   <h3 className="text-sm uppercase tracking-wide text-foreground mb-2">
                     Email
                   </h3>
                   <p className="text-muted-foreground">
-                    contact@hakimgroup.com
+                    contact@hakimglobal.com
                   </p>
                 </div>
-                <div>
-                  <h3 className="text-sm uppercase tracking-wide text-foreground mb-2">
-                    Office Hours
-                  </h3>
-                  <p className="text-muted-foreground">
-                    Monday – Friday
-                    <br />
-                    9:00 AM – 6:00 PM
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-sm uppercase tracking-wide text-foreground mb-2">
-                    Location
-                  </h3>
-                  <p className="text-muted-foreground">
-                    Address coming soon
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
