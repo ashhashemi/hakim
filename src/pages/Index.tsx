@@ -57,10 +57,10 @@ const Index = () => {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-8">
-              Doctoral Level Decision Making
+              Scholarly Insight for Complex Challenges
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              At Hakim Global, we provide decision-makers with clear, research-driven solutions to political, regulatory, and institutional challenges. We combine a deep contextual understanding with rigorous Oxford-level analysis to turn complexity into strategic clarity.
+              At Hakim Global, we provide decision-makers with clear, research-driven analysis to political, regulatory, and institutional challenges. We combine a deep contextual understanding with rigorous Oxford-level analysis to turn complexity into analytically-grounded clarity.
             </p>
           </div>
         </div>
