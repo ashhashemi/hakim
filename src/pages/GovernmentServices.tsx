@@ -37,7 +37,7 @@ const GovernmentServices = () => {
                   Diplomatic & Host-Country Engagement
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  We examine host-country political institutions, policy debates, and broader political dynamics to provide contextual understanding relevant to diplomatic missions operating in the United Kingdom. This work is descriptive and analytical in nature, rather than lobbying.
+                  We examine host-country political institutions, policy debates, and broader political dynamics to provide contextual understanding relevant to diplomatic missions operating in the United Kingdom. This work is analytical in nature, rather than lobbying.
                 </p>
               </div>
 
