@@ -16,8 +16,7 @@ const Index = () => {
                 <span className="italic">Meets Statecraft</span>
               </h1>
               <p className="mt-8 text-muted-foreground text-lg leading-relaxed animate-slide-up-delay">
-                Bridging academic rigor with applied political understanding.
-                We offer analytically grounded insight into complex political and institutional environments.
+                We offer academic, analytically grounded insight into complex political and institutional environments.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-4 animate-slide-up-delay justify-center sm:justify-start">
                 <a
