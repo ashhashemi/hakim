@@ -9,7 +9,7 @@ const whatWeDoLinks = [
 ];
 
 const navLinks = [
-  { name: "About Us", path: "/about" },
+  { name: "About Hakim", path: "/about" },
   { name: "Contact", path: "/contact" },
 ];
 
@@ -36,7 +36,7 @@ const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-12">
-            {/* About Us Link */}
+            {/* About Hakim Link */}
             <Link
               to="/about"
               className={`text-sm tracking-wide uppercase transition-colors duration-300 ${
@@ -45,7 +45,7 @@ const Navigation = () => {
                   : "text-muted-foreground hover:text-foreground"
               }`}
             >
-              About Us
+              About Hakim
             </Link>
 
             {/* What We Do Dropdown */}
