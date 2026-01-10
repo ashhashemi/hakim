@@ -58,12 +58,8 @@ const Contact = () => {
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-hero leading-tight animate-fade-in">
               Contact
             </h1>
-            <p className="mt-8 text-muted-foreground text-lg leading-relaxed animate-slide-up-delay">
-              Get in touch via email at{" "}
-              <a href="mailto:ashkan@hakim-global.com" className="text-foreground hover:underline">
-                ashkan@hakim-global.com
-              </a>{" "}
-              or send a message using the form below.
+            <p className="mt-8 text-muted-foreground text-lg leading-relaxed animate-slide-up-delay whitespace-nowrap">
+              Get in touch via email at <a href="mailto:ashkan@hakim-global.com" className="text-foreground hover:underline">ashkan@hakim-global.com</a> or send a message using the form below.
             </p>
           </div>
         </div>
@@ -77,7 +73,7 @@ const Contact = () => {
               Send a Message
             </h2>
             <form onSubmit={handleSubmit}>
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-end">
                 {/* Left Column - Name, Email, Organization */}
                 <div className="space-y-6">
                   <div>
@@ -157,7 +153,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="mt-8">
+              <div className="mt-8 text-center">
                 <button
                   type="submit"
                   className="px-8 py-4 bg-primary text-primary-foreground text-sm uppercase tracking-wide transition-all duration-300 hover:opacity-90"
