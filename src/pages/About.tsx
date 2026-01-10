@@ -17,8 +17,7 @@ const About = () => {
       {/* Our Story */}
       <section className="py-24 bg-card">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
+          <div className="max-w-3xl">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-8">
               Founding
             </h2>
@@ -38,14 +37,6 @@ const About = () => {
               <p>
                 Hakim Global brings regional expertise across the Middle East, South Asia, Latin America, and Europe, and conducts research and project work in eight languages. Research teams consist of DPhil and MPhil graduates, each with deep, region-specific focus.
               </p>
-            </div>
-            </div>
-            <div className="aspect-square bg-muted/50 border border-border flex items-center justify-center">
-              <div className="text-center p-8">
-                <p className="text-muted-foreground text-sm">
-                  Team image placeholder
-                </p>
-              </div>
             </div>
           </div>
         </div>
