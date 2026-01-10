@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import founderPhoto from "@/assets/founder-ashkan.jpeg";
 
 const About = () => {
   return (
@@ -45,22 +46,31 @@ const About = () => {
       {/* Meet the Founder */}
       <section className="py-24 bg-background">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-8">
-              Meet the Founder
-            </h2>
-            <div className="space-y-6 text-muted-foreground leading-relaxed">
-              <p>
-                Ashkan Hashemipour is the founder of Hakim Global. He is a doctoral researcher at the University of Oxford, where his research focuses on the historical foundations of transnational political networks in the Middle East, particularly in relation to Iran. Prior to Oxford, he worked as a strategy consultant at Kaiser Associates in Washington, D.C., advising clients across financial services, healthcare, and industrial sectors. He has also conducted research at the University of Chicago, where he completed his undergraduate degree, and at Harvard and MIT as a research assistant. You can find him on LinkedIn{" "}
-                <a 
-                  href="https://www.linkedin.com/in/ashton-hashemipour/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary hover:underline"
-                >
-                  here
-                </a>.
-              </p>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
+            <div className="lg:col-span-1">
+              <img 
+                src={founderPhoto} 
+                alt="Ashkan Hashemipour, Founder of Hakim Global" 
+                className="w-full max-w-xs mx-auto lg:mx-0 rounded-lg shadow-lg"
+              />
+            </div>
+            <div className="lg:col-span-2">
+              <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-8">
+                Meet the Founder
+              </h2>
+              <div className="space-y-6 text-muted-foreground leading-relaxed">
+                <p>
+                  Ashkan Hashemipour is the founder of Hakim Global. He is a doctoral researcher at the University of Oxford, where his research focuses on the historical foundations of transnational political networks in the Middle East, particularly in relation to Iran. Prior to Oxford, he worked as a strategy consultant at Kaiser Associates in Washington, D.C., advising clients across financial services, healthcare, and industrial sectors. He has also conducted research at the University of Chicago, where he completed his undergraduate degree, and at Harvard and MIT as a research assistant. You can find him on LinkedIn{" "}
+                  <a 
+                    href="https://www.linkedin.com/in/ashton-hashemipour/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    here
+                  </a>.
+                </p>
+              </div>
             </div>
           </div>
         </div>
