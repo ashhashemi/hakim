@@ -8,7 +8,7 @@ const About = () => {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-hero leading-tight animate-fade-in">
-              About Us
+              About Hakim
             </h1>
           </div>
         </div>
@@ -20,23 +20,23 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-8">
-              Our Story
+              Founding
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
                 Hakim Global was founded at St Antony's College, University of Oxford, in response to the growing complexity of the political, institutional, and cultural environments shaping decisions in both the public and private sectors.
               </p>
               <p>
-                In conversations between academics and diplomats, we observed how public institutions – particularly diplomatic missions – could benefit from academic insight, whether in structuring complex political questions or understanding how the UK policy landscape operates. At the same time, drawing on first-hand experience in corporate strategy consulting, we saw companies entering complex political environments without adequately accounting for factors such as sanctions exposure, regulatory volatility, or the potential for state intervention – often treating political context as secondary to commercial considerations.
+                The group grew out of engagement at the intersection of academia, diplomacy, and corporate strategy. Through conversations with academics and diplomats, it became clear how public institutions—particularly diplomatic missions—could benefit from rigorous scholarly insight, whether in structuring complex political questions or navigating the UK policy landscape. At the same time, first-hand experience in corporate strategy consulting revealed how companies often enter politically complex environments without adequately accounting for sanctions exposure, regulatory volatility, or the likelihood of state intervention, frequently treating political context as secondary to commercial considerations.
               </p>
               <p>
-                Through early work with UK-based embassies, we contributed analytical notes that helped diplomats navigate the UK policy environment, map relevant stakeholders, and situate contemporary policy questions within their broader context. Building on this experience, Hakim Global was founded to offer independent, research-driven analysis has since expanded to include political risk analyses for private companies.
+                Early work with UK-based embassies involved the production of analytical notes to support policy teams in situating contemporary issues within their broader political and institutional context, mapping stakeholders, and navigating the UK policy environment. Building on this experience, Hakim Global was established as an independent platform for research-driven political analysis, and has since expanded to include political risk and monitoring work for private-sector clients.
               </p>
               <p>
                 Hakim carries meaning in both Arabic and Persian. In Arabic, it denotes wisdom, judgment, and the ability to act with discernment; in Persian, it similarly evokes learned judgment grounded in knowledge, experience, and restraint. We chose the name Hakim to reflect our approach: careful analysis rather than assertion, clarity over noise, and research informed by deep context rather than surface-level signals.
               </p>
               <p>
-                We bring regional expertise across the Middle East, South Asia, Latin America, and Europe, and conduct research and project work in eight languages. Our team consists of DPhil and MPhil graduates, each with deep, region-specific focus.
+                Hakim Global brings regional expertise across the Middle East, South Asia, Latin America, and Europe, and conducts research and project work in eight languages. Research teams consist of DPhil and MPhil graduates, each with deep, region-specific focus.
               </p>
             </div>
             </div>
