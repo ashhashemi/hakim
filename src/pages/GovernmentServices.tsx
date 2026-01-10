@@ -66,9 +66,9 @@ const GovernmentServices = () => {
               <a href="mailto:ashkan@hakim-global.com" className="text-foreground hover:underline">
                 ashkan@hakim-global.com
               </a>{" "}
-              or through{" "}
+              or by clicking{" "}
               <a href="/contact" className="text-foreground hover:underline">
-                this form
+                here
               </a>
             </p>
           </div>
