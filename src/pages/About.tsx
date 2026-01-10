@@ -47,13 +47,6 @@ const About = () => {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
-            <div className="lg:col-span-1">
-              <img 
-                src={founderPhoto} 
-                alt="Ashkan Hashemipour, Founder of Hakim Global" 
-                className="w-full max-w-xs mx-auto lg:mx-0 rounded-lg shadow-lg"
-              />
-            </div>
             <div className="lg:col-span-2">
               <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-8">
                 Meet the Founder
@@ -71,6 +64,13 @@ const About = () => {
                   </a>.
                 </p>
               </div>
+            </div>
+            <div className="lg:col-span-1">
+              <img 
+                src={founderPhoto} 
+                alt="Ashkan Hashemipour, Founder of Hakim Global" 
+                className="w-full max-w-xs mx-auto lg:mx-0 rounded-lg shadow-lg"
+              />
             </div>
           </div>
         </div>
