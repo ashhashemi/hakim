@@ -56,14 +56,14 @@ const Contact = () => {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-hero leading-tight animate-fade-in">
-              Contact Hakim
+              Contact
             </h1>
             <p className="mt-8 text-muted-foreground text-lg leading-relaxed animate-slide-up-delay">
               Get in touch via email at{" "}
               <a href="mailto:ashkan@hakim-global.com" className="text-foreground hover:underline">
                 ashkan@hakim-global.com
               </a>{" "}
-              or send us a message using the form below.
+              or send a message using the form below.
             </p>
           </div>
         </div>
@@ -74,7 +74,7 @@ const Contact = () => {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-lg mx-auto">
             <h2 className="font-serif text-2xl text-foreground mb-8">
-              Send Us a Message
+              Send a Message
               </h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
