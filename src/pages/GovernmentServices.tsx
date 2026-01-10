@@ -59,17 +59,18 @@ const GovernmentServices = () => {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-8">
-              Ready to Get Started?
+              Want to work with us?
             </h2>
             <p className="text-muted-foreground text-lg mb-10">
-              Let's discuss how Hakim Global can support your organisation's objectives.
+              Get in touch at{" "}
+              <a href="mailto:ashkan@hakim-global.com" className="text-foreground hover:underline">
+                ashkan@hakim-global.com
+              </a>{" "}
+              or through{" "}
+              <a href="/contact" className="text-foreground hover:underline">
+                this form
+              </a>
             </p>
-            <a
-              href="/contact"
-              className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground text-sm uppercase tracking-wide transition-all duration-300 hover:opacity-90"
-            >
-              Contact Us
-            </a>
           </div>
         </div>
       </section>
