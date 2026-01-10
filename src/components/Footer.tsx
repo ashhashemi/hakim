@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-16">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Brand */}
           <div>
             <h3 className="font-serif text-2xl mb-4">Hakim Global</h3>
@@ -23,7 +23,7 @@ const Footer = () => {
                 to="/about"
                 className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
               >
-                About Us
+                About Hakim
               </Link>
               <Link
                 to="/government"
@@ -44,19 +44,6 @@ const Footer = () => {
                 Contact
               </Link>
             </div>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h4 className="text-sm uppercase tracking-wide mb-4 font-medium">
-              Get in Touch
-            </h4>
-            <a
-              href="mailto:contact@hakimglobal.com"
-              className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
-            >
-              contact@hakimglobal.com
-            </a>
           </div>
         </div>
 
