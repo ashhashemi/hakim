@@ -18,7 +18,7 @@ const About = () => {
       {/* Our Story */}
       <section className="py-24 bg-card">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
+          <div className="max-w-4xl lg:max-w-none">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-8">
               Founding
             </h2>
