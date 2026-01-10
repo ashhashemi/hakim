@@ -11,11 +11,34 @@ const Contact = () => {
     message: "",
   });
 
+  const countWords = (text: string) => {
+    return text.trim().split(/\s+/).filter(word => word.length > 0).length;
+  };
+
+  const wordCount = countWords(formData.message);
+  const maxWords = 500;
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    if (wordCount > maxWords) {
+      toast({
+        title: "Message too long",
+        description: `Please limit your message to ${maxWords} words.`,
+        variant: "destructive",
+      });
+      return;
+    }
+
+    const mailtoLink = `mailto:ashkan@hakim-global.com?subject=Contact from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\nOrganization: ${formData.organization}\n\nMessage:\n${formData.message}`
+    )}`;
+    
+    window.location.href = mailtoLink;
+    
     toast({
-      title: "Message Sent",
-      description: "Thank you for reaching out. We'll be in touch soon.",
+      title: "Opening Email Client",
+      description: "Your email client should open with the message ready to send.",
     });
     setFormData({ name: "", email: "", organization: "", message: "" });
   };
@@ -36,7 +59,7 @@ const Contact = () => {
               Contact Us
             </h1>
             <p className="mt-8 text-muted-foreground text-lg leading-relaxed animate-slide-up-delay">
-              Ready to transform your organization? Let's start a conversation.
+              Email us directly or send us a message
             </p>
           </div>
         </div>
@@ -46,6 +69,19 @@ const Contact = () => {
       <section className="py-24 bg-card">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            {/* Contact Info */}
+            <div>
+              <h2 className="font-serif text-2xl text-foreground mb-8">
+                Email
+              </h2>
+              <a 
+                href="mailto:ashkan@hakim-global.com"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                ashkan@hakim-global.com
+              </a>
+            </div>
+
             {/* Form */}
             <div className="max-w-lg">
               <h2 className="font-serif text-2xl text-foreground mb-8">
@@ -103,12 +139,17 @@ const Contact = () => {
                   />
                 </div>
                 <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-sm text-foreground mb-2"
-                  >
-                    Message
-                  </label>
+                  <div className="flex justify-between items-center mb-2">
+                    <label
+                      htmlFor="message"
+                      className="block text-sm text-foreground"
+                    >
+                      Message
+                    </label>
+                    <span className={`text-xs ${wordCount > maxWords ? 'text-destructive' : 'text-muted-foreground'}`}>
+                      {wordCount}/{maxWords} words
+                    </span>
+                  </div>
                   <textarea
                     id="message"
                     name="message"
@@ -126,21 +167,6 @@ const Contact = () => {
                   Send Message
                 </button>
               </form>
-            </div>
-
-            {/* Contact Info */}
-            <div className="lg:pl-12">
-              <h2 className="font-serif text-2xl text-foreground mb-8">
-                Get in Touch
-              </h2>
-              <div>
-                  <h3 className="text-sm uppercase tracking-wide text-foreground mb-2">
-                    Email
-                  </h3>
-                  <p className="text-muted-foreground">
-                    contact@hakimglobal.com
-                  </p>
-                </div>
             </div>
           </div>
         </div>
