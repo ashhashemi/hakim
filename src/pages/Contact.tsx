@@ -56,10 +56,14 @@ const Contact = () => {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-hero leading-tight animate-fade-in">
-              Contact Us
+              Contact Hakim
             </h1>
             <p className="mt-8 text-muted-foreground text-lg leading-relaxed animate-slide-up-delay">
-              Email us directly or send us a message
+              Get in touch via email at{" "}
+              <a href="mailto:ashkan@hakim-global.com" className="text-foreground hover:underline">
+                ashkan@hakim-global.com
+              </a>{" "}
+              or send us a message using the form below.
             </p>
           </div>
         </div>
@@ -68,24 +72,9 @@ const Contact = () => {
       {/* Contact Form */}
       <section className="py-24 bg-card">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            {/* Contact Info */}
-            <div>
-              <h2 className="font-serif text-2xl text-foreground mb-8">
-                Email
-              </h2>
-              <a 
-                href="mailto:ashkan@hakim-global.com"
-                className="text-muted-foreground hover:text-foreground transition-colors"
-              >
-                ashkan@hakim-global.com
-              </a>
-            </div>
-
-            {/* Form */}
-            <div className="max-w-lg">
-              <h2 className="font-serif text-2xl text-foreground mb-8">
-                Send Us a Message
+          <div className="max-w-lg mx-auto">
+            <h2 className="font-serif text-2xl text-foreground mb-8">
+              Send Us a Message
               </h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
@@ -167,7 +156,6 @@ const Contact = () => {
                   Send Message
                 </button>
               </form>
-            </div>
           </div>
         </div>
       </section>
